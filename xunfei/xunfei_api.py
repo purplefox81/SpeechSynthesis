@@ -14,7 +14,7 @@ from datetime import datetime
 from time import mktime
 from wsgiref.handlers import format_date_time
 
-
+# reference: https://console.xfyun.cn/services/tts
 class SpeechSynthesis(object):
 
     # Constants used by Xunfei Open Platform
