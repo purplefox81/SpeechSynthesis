@@ -22,5 +22,14 @@ def run_me(filename):
             ssrh.convert_to_mp3(filename+'_Line_'+str(i)+'.mp3')
     ssrh.clean_up()
 
+run_me("cn_p4a_1")
+run_me("cn_p4a_2")
+run_me("cn_p4a_3")
+run_me("cn_p4a_4")
+run_me("cn_p4a_5")
 run_me("cn_p4a_6")
-# run_me("en_p4a_6")
+run_me("cn_p4a_6")
+run_me("cn_p4a_7")
+run_me("cn_p4a_8")
+run_me("cn_p4a_9")
+
