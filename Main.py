@@ -4,7 +4,9 @@ from xunfei.xunfei_api import SpeechSynthesis
 def run_me(filename):
 
     ssrh = SpeechSynthesis()
-    with open('words/'+filename+'.txt') as file:
+
+    # with open('words/'+filename+'.txt') as file:
+    with open('yay/' + filename + '.txt') as file:
 
         chinese = filename.startswith('cn_')
 
@@ -22,7 +24,9 @@ def run_me(filename):
             ssrh.convert_to_mp3(filename+'_Line_'+str(i)+'.mp3')
     ssrh.clean_up()
 
-run_me("cn_p4a_1")
+run_me('cn_p1a_du_1')
+
+# run_me("cn_p4a_1")
 # run_me("cn_p4a_2")
 # run_me("cn_p4a_3")
 # run_me("cn_p4a_4")
