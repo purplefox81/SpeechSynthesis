@@ -5,8 +5,7 @@ def run_me(filename):
 
     ssrh = SpeechSynthesis()
 
-    # with open('words/'+filename+'.txt') as file:
-    with open('yay/' + filename + '.txt') as file:
+    with open('words/' + filename + '.txt') as file:
 
         chinese = filename.startswith('cn_')
 
@@ -24,17 +23,47 @@ def run_me(filename):
             ssrh.convert_to_mp3(filename+'_Line_'+str(i)+'.mp3')
     ssrh.clean_up()
 
-run_me('cn_p1a_du_1')
+# 已经重做
+# run_me('cn_p1a_xie')
+# run_me('cn_p1b_xie')
+run_me('cn_p2a_xie')
 
-# run_me("cn_p4a_1")
-# run_me("cn_p4a_2")
-# run_me("cn_p4a_3")
-# run_me("cn_p4a_4")
-# run_me("cn_p4a_5")
-# run_me("cn_p4a_6")
-# run_me("cn_p4a_6")
-# run_me("cn_p4a_7")
-# run_me("cn_p4a_8")
-# run_me("cn_p4a_9")
+# 等待重做
+# run_me('cn_p2a_xie_1')
+# run_me('cn_p2b_xie_1')
+# run_me('cn_p2b_xie_2')
+# run_me('cn_p3a_xie_1')
+# run_me('cn_p3a_xie_2')
+# run_me('cn_p3b_xie_1')
+# run_me('cn_p3b_xie_2')
+
+
+# 全部放弃
+# run_me('cn_p1a_du_1')
+# run_me('cn_p1a_du_2')
+# run_me('cn_p1a_du_3')
+# run_me('cn_p1b_du_1')
+# run_me('cn_p1b_du_2')
+# run_me('cn_p2a_du_1')
+# run_me('cn_p2a_du_2')
+# run_me('cn_p2b_du_1')
+# run_me('cn_p2b_du_2')
+# run_me('cn_p3a_du_1')
+# run_me('cn_p3a_du_2')
+# run_me('cn_p3a_du_3')
+# run_me('cn_p3b_du_1')
+# run_me('cn_p3b_du_2')
+
+# 学校听写
+# run_me("cn_p4a_tingxie_1")
+# run_me("cn_p4a_tingxie_2")
+# run_me("cn_p4a_tingxie_3")
+# run_me("cn_p4a_tingxie_4")
+# run_me("cn_p4a_tingxie_5")
+# run_me("cn_p4a_tingxie_6")
+# run_me("cn_p4a_tingxie_6")
+# run_me("cn_p4a_tingxie_7")
+# run_me("cn_p4a_tingxie_8")
+# run_me("cn_p4a_tingxie_9")
 
 
