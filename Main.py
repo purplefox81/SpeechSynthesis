@@ -23,13 +23,14 @@ def run_me(filename):
     ssrh.clean_up()
 
 run_me("cn_p4a_1")
-run_me("cn_p4a_2")
-run_me("cn_p4a_3")
-run_me("cn_p4a_4")
-run_me("cn_p4a_5")
-run_me("cn_p4a_6")
-run_me("cn_p4a_6")
-run_me("cn_p4a_7")
-run_me("cn_p4a_8")
-run_me("cn_p4a_9")
+# run_me("cn_p4a_2")
+# run_me("cn_p4a_3")
+# run_me("cn_p4a_4")
+# run_me("cn_p4a_5")
+# run_me("cn_p4a_6")
+# run_me("cn_p4a_6")
+# run_me("cn_p4a_7")
+# run_me("cn_p4a_8")
+# run_me("cn_p4a_9")
+
 
