@@ -5,7 +5,7 @@ def run_me(filename):
 
     ssrh = SpeechSynthesis()
 
-    with open('words/' + filename + '.txt') as file:
+    with open('words_primary/' + filename + '.txt') as file:
 
         chinese = filename.startswith('cn_')
 
