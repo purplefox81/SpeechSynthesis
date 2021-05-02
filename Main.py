@@ -23,13 +23,15 @@ def run_me(filename):
             ssrh.convert_to_mp3(filename+'_Line_'+str(i)+'.mp3')
     ssrh.clean_up()
 
+run_me('cn_sec1_yanyu')
+
 # 已经重做
 # run_me('cn_p1a_xie')
 # run_me('cn_p1b_xie')
 # run_me('cn_p2a_xie')
 # run_me('cn_p2b_xie')
 # run_me('cn_p3a_xie')
-run_me('cn_p3b_xie')
+# run_me('cn_p3b_xie')
 
 # 等待重做
 # run_me('cn_p2a_xie_1')
